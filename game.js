@@ -14,4 +14,4 @@ do{
   }
 }while(true)
 
-console.log(100-num);
+console.log(100-num+1);
