@@ -4,7 +4,8 @@ do {
   a = prompt("Guess the number between 1 to 100:")
   a = Number.parseInt(a); num++;
   if (a == x) {
-    console, log("Your Guess is right.");
+    console.log("Your Guess is right!!");
+    console.log(`Your Score is: ${(100 + 1) - num}`);
     break;
   }
   else if (a < x) {
@@ -15,4 +16,4 @@ do {
   }
 } while (true)
 
-console.log((100 + 1) - num);
+
